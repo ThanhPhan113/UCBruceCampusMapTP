@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.u3175008.ucbrucecampusmaptp">
+
+    <!-- Android has two location request settings: ACCESS_COARSE_LOCATION and ACCESS_FINE_LOCATION}. These settings control the accuracy of the current location. If only ACCESS_COARSE_LOCATION is used, the location services return a location with an accuracy approximately equivalent to a city block. -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBJJfz9iXAAZpQ6tK0B7cmcf-dmcwCt2v4" />
+
+        <activity
+            android:name=".webview"
+            android:label="WebView"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Google_Street_View"
+            android:label="@string/title_activity_google__street__view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Google_Street_View2"
+            android:label="@string/title_activity_google__street__view2"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

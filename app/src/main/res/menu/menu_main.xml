@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.u3175008.ucbrucecampusmaptp.MainActivity">
+    <item
+        android:id="@+id/file"
+        android:title="abc"
+        android:icon="@mipmap/ic_uc"
+        app:showAsAction="ifRoom">
+        <menu>
+        <item
+            android:id="@+id/action_Normal"
+            android:orderInCategory="100"
+            android:title="Normal"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_Hybrid"
+            android:orderInCategory="100"
+            android:title="Hybrid"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_Satellite"
+            android:orderInCategory="100"
+            android:title="Satellite"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_Terrain"
+            android:orderInCategory="100"
+            android:title="Terrain"
+            app:showAsAction="never" />
+
+
+        <item
+            android:id="@+id/action_None"
+            android:orderInCategory="100"
+            android:title="None"
+            app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+</menu>

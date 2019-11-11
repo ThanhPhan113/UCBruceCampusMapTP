@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UC Bruce Campus Map TP</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_Normal">Normal</string>
+    <string name="action_Hybrid">Hybrid</string>
+    <string name="action_Satellite">Satellite</string>
+    <string name="action_Terrain">Terrain</string>
+    <string name="action_None">None</string>
+    <string name="title_activity_webview">webview</string>
+    <string name="title_activity_google__street__view">Google_Street_View</string>
+    <string name="title_activity_google__street__view2">Google_Street_View2</string>
+</resources>
